@@ -34,7 +34,7 @@ const app = express()
 app.use(bodyParser.json())
 app.use(
   cors({
-    origin: 'http://10.0.0.4:3000', // specify the exact origin
+    origin: 'https://aceolympics.azurewebsites.net/', // specify the exact origin
     credentials: true // allow credentials
   })
 )
