@@ -1,0 +1,4 @@
+{
+    "appService.defaultWebAppToDeploy": "undefined/subscriptions/d135e5f7-eb3c-49dd-bbe3-29da942961d3/resourceGroups/ace/providers/Microsoft.Web/sites/acebackendserver",
+    "appService.deploySubpath": "."
+}
