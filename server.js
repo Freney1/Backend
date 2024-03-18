@@ -34,7 +34,7 @@ const app = express()
 app.use(bodyParser.json())
 app.use(
   cors({
-    origin: 'http://localhost:3000', // specify the exact origin
+    origin: 'http://10.0.0.4:3000', // specify the exact origin
     credentials: true // allow credentials
   })
 )
@@ -106,7 +106,7 @@ app.get(
   passport.authenticate('discord', { failureRedirect: '/login' }),
   function (req, res) {
     // Successful authentication, redirect home.
-    res.redirect('http://localhost:3000/')
+    res.redirect('http://10.0.0.4:3000/')
     // res.json({ success: true, user: req.user })
   }
 )
